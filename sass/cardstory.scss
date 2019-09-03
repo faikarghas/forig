@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url('../static/image/banner.png');
+    height: 100vh;  
+    margin: 0;
+    background-size: cover;
+}
+
+.satu{
+    // background-image: url('../static/image/playing\ cards\ like\ never\ before.jpg');
+    padding: 100px 0;
+    // height: 100vh;  
+    // background-size: contain;
+    overflow: hidden;
+}
+
+.width100{
+    max-width: 100vw;
+    width: 100vw;
+    margin: 0 calc(-50vw + 50%);
+    padding: 0rem 0rem;
+}
