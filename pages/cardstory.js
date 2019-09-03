@@ -127,6 +127,30 @@ export class cardstory extends Component {
                         </Row>
                     </Container>
                 </section>
+                <section className="lima">
+                    <Container>
+                        <Row className="pt-5 pb-5">
+                            <Col md={6}>
+                                <img src="../static/image/dailydeals.jpg" width="100%" height="100%"/>
+                            </Col>
+                            <Col md={6}>
+                                <img src="../static/image/newcollections.jpg" width="100%" height="100%"/>
+                            </Col>
+                        </Row>
+                    </Container>
+                </section>
+                <section className="enam width100">
+                    <Container>
+                        <Row className="pt-5 pb-5">
+                            <Col md={6}>
+                                <h2>CUSTOMER SERVICES.</h2>
+                            </Col>
+                            <Col md={6}>
+                                <h2>100% SATISFACTION GUARANTEED.</h2>
+                            </Col>
+                        </Row>
+                    </Container>
+                </section>
             </React.Fragment>
 
 )
