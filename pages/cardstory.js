@@ -52,14 +52,14 @@ export class cardstory extends Component {
                     <Container>
                         <Row>
                             <Col md={3}>
-                                <div class="cardku">
-                                    <div class="cardku__side cardku__side--front cardku__side--front-1">
-                                        <div class="cardku__description">
+                                <div className="cardku">
+                                    <div className="cardku__side cardku__side--front cardku__side--front-1">
+                                        <div className="cardku__description">
                                             <img src="../static/image/fathom_600px.png" width="100%"/>
                                         </div>
                                     </div>
-                                    <div class="cardku__side cardku__side--back cardku__side--back-1">
-                                        <div class="cardku__description">
+                                    <div className="cardku__side cardku__side--back cardku__side--back-1">
+                                        <div className="cardku__description">
                                             <img src="../static/image/fathom-back_600px.png" width="100%"/>
                                         </div>
                                     </div>
@@ -68,14 +68,14 @@ export class cardstory extends Component {
                                 <p>IDR 100,000</p>
                             </Col>
                             <Col md={3}>
-                                <div class="cardku">
-                                    <div class="cardku__side cardku__side--front cardku__side--front-1">
-                                        <div class="cardku__description">
+                                <div className="cardku">
+                                    <div className="cardku__side cardku__side--front cardku__side--front-1">
+                                        <div className="cardku__description">
                                             <img src="../static/image/little-island_600px.png" width="100%"/>
                                         </div>
                                     </div>
-                                    <div class="cardku__side cardku__side--back cardku__side--back-1">
-                                        <div class="cardku__description">
+                                    <div className="cardku__side cardku__side--back cardku__side--back-1">
+                                        <div className="cardku__description">
                                             <img src="../static/image/little-island-back_600px.png" width="100%"/>
                                         </div>
                                     </div>
@@ -84,14 +84,14 @@ export class cardstory extends Component {
                                 <p>IDR 100,000</p>
                             </Col>
                             <Col md={3}>
-                                <div class="cardku">
-                                    <div class="cardku__side cardku__side--front cardku__side--front-1">
-                                        <div class="cardku__description">
+                                <div className="cardku">
+                                    <div className="cardku__side cardku__side--front cardku__side--front-1">
+                                        <div className="cardku__description">
                                             <img src="../static/image/ltd_600px.png" width="100%"/>
                                         </div>
                                     </div>
-                                    <div class="cardku__side cardku__side--back cardku__side--back-1">
-                                        <div class="cardku__description">
+                                    <div className="cardku__side cardku__side--back cardku__side--back-1">
+                                        <div className="cardku__description">
                                             <img src="../static/image/Faikar.jpg" width="100%"/>
                                         </div>
                                     </div>
@@ -100,14 +100,14 @@ export class cardstory extends Component {
                                 <p>IDR 100,000</p>
                             </Col>
                             <Col md={3}>
-                                <div class="cardku">
+                                <div className="cardku">
                                     <div class="cardku__side cardku__side--front cardku__side--front-1">
-                                        <div class="cardku__description">
+                                        <div className="cardku__description">
                                             <img src="../static/image/pressers_600px.png" width="100%"/>
                                         </div>
                                     </div>
-                                    <div class="cardku__side cardku__side--back cardku__side--back-1">
-                                        <div class="cardku__description">
+                                    <div className="cardku__side cardku__side--back cardku__side--back-1">
+                                        <div className="cardku__description">
                                             <img src="../static/image/pressers-back_600px.png" width="100%"/>
                                         </div>
                                     </div>
@@ -139,14 +139,20 @@ export class cardstory extends Component {
                         </Row>
                     </Container>
                 </section>
-                <section className="enam width100">
+                <section className="enam width100 pt-5 pb-5">
                     <Container>
                         <Row className="pt-5 pb-5">
-                            <Col md={6}>
-                                <h2>CUSTOMER SERVICES.</h2>
+                            <Col md={6} className="text-center">
+                                <Fade left>
+                                    <h2 className="mb-5" style={{color:'#8d793e'}}>CUSTOMER SERVICES.</h2>
+                                    <p  style={{color:'white'}}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stat ever since the 1500s, when an unk tasyasdasdasd</p>
+                                </Fade>
                             </Col>
-                            <Col md={6}>
-                                <h2>100% SATISFACTION GUARANTEED.</h2>
+                            <Col md={6} className="text-center">
+                                <Fade right>
+                                    <h2 className="mb-5" style={{color:'#8d793e'}}>100% SATISFACTION GUARANTEED.</h2>
+                                    <p style={{color:'white'}}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard d since the 1500s, when an unk asddssssssss</p>
+                                </Fade>
                             </Col>
                         </Row>
                     </Container>
