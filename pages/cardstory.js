@@ -13,7 +13,7 @@ export class cardstory extends Component {
                     <Container>
                         <Row className="text-center">
                             <div className="center-abs">
-                                <Fade bottom>
+                                <Fade>
                                     <div className="text-center">
                                         <h1 style={{fontWeight:'bold',color:'#8d793e'}}>PASSION</h1>
                                         <h1 style={{fontWeight:'bold',color:'#8d793e'}}>FOR QUALITY</h1>
@@ -27,7 +27,7 @@ export class cardstory extends Component {
                     <Container>
                         <Row>
                             <Col className="text-center pad">
-                                <Fade bottom>
+                                <Fade left>
                                     <h2 className="mb-5">Playing Cards Like Never Before</h2>
                                 </Fade>
                                 <Fade>
@@ -143,13 +143,13 @@ export class cardstory extends Component {
                     <Container>
                         <Row className="pt-5 pb-5">
                             <Col md={6} className="text-center">
-                                <Fade left>
+                                <Fade>
                                     <h2 className="mb-5" style={{color:'#8d793e'}}>CUSTOMER SERVICES.</h2>
                                     <p  style={{color:'white'}}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stat ever since the 1500s, when an unk tasyasdasdasd</p>
                                 </Fade>
                             </Col>
                             <Col md={6} className="text-center">
-                                <Fade right>
+                                <Fade>
                                     <h2 className="mb-5" style={{color:'#8d793e'}}>100% SATISFACTION GUARANTEED.</h2>
                                     <p style={{color:'white'}}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard d since the 1500s, when an unk asddssssssss</p>
                                 </Fade>
